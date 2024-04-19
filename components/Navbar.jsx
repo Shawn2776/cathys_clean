@@ -47,7 +47,12 @@ const Navbar = () => {
         <div className="md:hidden flex justify-between navbar bg-bgSoft px-4 relative">
           <div>
             <Link href="/" onClick={() => setIsOpen(false)}>
-              <Image src="/logo.png" width={50} height={50} />
+              <Image
+                src="/logo.png"
+                width={50}
+                height={50}
+                alt="Cathy's Clean logo"
+              />
             </Link>
           </div>
           <div>
