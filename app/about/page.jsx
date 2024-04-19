@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div className="border-t text-center">
+    <div className="text-center">
       <UnderConstructionPage />
     </div>
   );
