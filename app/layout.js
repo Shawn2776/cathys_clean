@@ -14,10 +14,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-bgSoft text-text min-h-screen`}>
+      <body
+        className={`${inter.className} bg-bgSoft text-text min-h-screen relative`}
+      >
         <Navbar />
-        {children}
-        <Footer />
+        <div className="flex-1">{children}</div>
+        <div className="absolute bottom-0 left-0 right-0">
+          <Footer />
+        </div>
         <GoogleAnalytics gaId="G-S9KSPX27VG" />
       </body>
     </html>
