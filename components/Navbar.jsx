@@ -14,36 +14,55 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="hidden md:flex navbar bg-bgSoft px-32 mx-auto items-center">
-        <div className="flex-1 items-center">
-          <Link href="/">
-            <Image
-              alt="Cathy's Clean logo"
-              src="/logo.png"
-              height={95}
-              width={95}
-              className="pt-4"
-            />{" "}
-          </Link>
-        </div>
-        <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <Link href="/about">About</Link>
+      <nav className="hidden md:flex bg-bgSoft mx-auto justify-between items-center ml-32 mr-32">
+        <Link href="/">
+          <Image
+            alt="Cathy's Clean logo"
+            src="/logo.png"
+            height={65}
+            width={65}
+            className="py-2"
+          />
+        </Link>
+
+        <div>
+          <ul className="flex gap-4">
+            <li className="text-xl font-semibold">
+              <Link
+                className="hover:text-gray-500 cursor-pointer"
+                href="/about"
+              >
+                About
+              </Link>
             </li>
-            <li>
-              <Link href="/services">Services</Link>
+            <li className="text-xl font-semibold">
+              <Link
+                className="hover:text-gray-500 cursor-pointer"
+                href="/services"
+              >
+                Services
+              </Link>
             </li>
-            <li>
-              <Link href="/booking">Booking</Link>
+            <li className="text-xl font-semibold">
+              <Link
+                className="hover:text-gray-500 cursor-pointer"
+                href="/booking"
+              >
+                Booking
+              </Link>
             </li>
-            <li>
-              <Link href="/contact">Contact</Link>
+            <li className="text-xl font-semibold">
+              <Link
+                className="hover:text-gray-500 cursor-pointer"
+                href="/contact"
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
       </nav>
-      <nav>
+      {/* <nav className="">
         <div className="md:hidden flex justify-between navbar bg-bgSoft px-4 relative">
           <div>
             <Link href="/" onClick={() => setIsOpen(false)}>
@@ -95,7 +114,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </nav>
+      </nav> */}
     </>
   );
 };

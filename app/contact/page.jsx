@@ -1,7 +1,8 @@
+import UnderConstructionPage from "@/components/UnderConstruction";
 import React from "react";
 
 const ContactPage = () => {
-  return <div>ContactPage</div>;
+  return <UnderConstructionPage />;
 };
 
 export default ContactPage;

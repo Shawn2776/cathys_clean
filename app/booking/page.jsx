@@ -1,7 +1,8 @@
+import UnderConstructionPage from "@/components/UnderConstruction";
 import React from "react";
 
 const BookingPage = () => {
-  return <div>BookingPage</div>;
+  return <UnderConstructionPage />;
 };
 
 export default BookingPage;

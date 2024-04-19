@@ -1,7 +1,8 @@
+import UnderConstructionPage from "@/components/UnderConstruction";
 import React from "react";
 
 const ServicesPage = () => {
-  return <div>ServicesPage</div>;
+  return <UnderConstructionPage />;
 };
 
 export default ServicesPage;
