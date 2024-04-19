@@ -62,7 +62,7 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-      {/* <nav className="">
+      <nav className="">
         <div className="md:hidden flex justify-between navbar bg-bgSoft px-4 relative">
           <div>
             <Link href="/" onClick={() => setIsOpen(false)}>
@@ -114,7 +114,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </nav> */}
+      </nav>
     </>
   );
 };
