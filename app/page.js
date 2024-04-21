@@ -12,12 +12,12 @@ const HomePage = () => {
             <div className="animation-glow">
               <p className="py-6 font-extrabold">
                 <em className="text-xl text-[#F79537] sparkle">
-                  Where <span className="animate-glow text-2xl">Sparkle</span>{" "}
-                  Meets <span className="animate-glow text-2xl">Shine</span>!
+                  Where <span className="text-2xl animate-glow">Sparkle</span>{" "}
+                  Meets <span className="text-2xl animate-glow">Shine</span>!
                 </em>
               </p>
             </div>
-            <p className="mb-4 mr-20 max-w-2xl text-black">
+            <p className="max-w-2xl mb-4 mr-20 text-black">
               Discover the magic of a truly clean space with Cathy&apos;s Clean.{" "}
               Equipped with the best tools and eco-friendly products, we ensure
               every corner of your home or office sparkles.{" "}
@@ -52,15 +52,15 @@ const HomePage = () => {
             alt="Hero image"
           />
         </div>
-        <div className="animation-glow text-center">
+        <div className="text-center animation-glow">
           <p className="py-6 font-extrabold">
             <em className="text-xl text-[#F79537] sparkle">
-              Where <span className="animate-glow text-2xl">Sparkle</span> Meets{" "}
-              <span className="animate-glow text-2xl">Shine</span>!
+              Where <span className="text-2xl animate-glow">Sparkle</span> Meets{" "}
+              <span className="text-2xl animate-glow">Shine</span>!
             </em>
           </p>
         </div>
-        <p className=" px-4 text-black mb-4">
+        <p className="px-4 mb-4 text-black ">
           Discover the magic of a truly clean space with Cathy&apos;s Clean.{" "}
           Equipped with the best tools and eco-friendly products, we ensure
           every corner of your home or office sparkles.{" "}
@@ -72,7 +72,7 @@ const HomePage = () => {
         </p>
         <Link
           href="/booking"
-          className="btn mb-40 w-40 mx-auto text-[#4093CB] hover:bg-[#4093CB] hover:text-[#F6F5EA] bg-[#F6F5EA]"
+          className="mb-40 w-40 mx-auto text-[#4093CB] hover:bg-[#4093CB] hover:text-[#F6F5EA] bg-[#F6F5EA]"
         >
           Book Now
         </Link>

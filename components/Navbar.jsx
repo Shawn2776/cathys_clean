@@ -5,6 +5,7 @@ import Link from "next/link";
 import React from "react";
 import { FiMenu } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
+import Pathname from "./Pathname";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="hidden md:flex bg-bgSoft mx-auto justify-between items-center ml-32 mr-32 border-b">
+      <nav className="items-center justify-between hidden mx-auto ml-32 mr-32 border-b md:flex bg-bgSoft">
         <Link href="/">
           <Image
             alt="Cathy's Clean logo"
@@ -26,10 +27,14 @@ const Navbar = () => {
         </Link>
 
         <div>
+          <Pathname />
+        </div>
+
+        <div>
           <ul className="flex gap-4">
             <li className="text-xl font-semibold">
               <Link
-                className="hover:text-gray-500 cursor-pointer"
+                className="cursor-pointer hover:text-gray-500"
                 href="/about"
               >
                 About
@@ -37,7 +42,7 @@ const Navbar = () => {
             </li>
             <li className="text-xl font-semibold">
               <Link
-                className="hover:text-gray-500 cursor-pointer"
+                className="cursor-pointer hover:text-gray-500"
                 href="/services"
               >
                 Services
@@ -45,7 +50,7 @@ const Navbar = () => {
             </li>
             <li className="text-xl font-semibold">
               <Link
-                className="hover:text-gray-500 cursor-pointer"
+                className="cursor-pointer hover:text-gray-500"
                 href="/booking"
               >
                 Booking
@@ -53,7 +58,7 @@ const Navbar = () => {
             </li>
             <li className="text-xl font-semibold">
               <Link
-                className="hover:text-gray-500 cursor-pointer"
+                className="cursor-pointer hover:text-gray-500"
                 href="/contact"
               >
                 Contact
@@ -63,7 +68,7 @@ const Navbar = () => {
         </div>
       </nav>
       <nav className="">
-        <div className="md:hidden flex justify-between navbar bg-bgSoft px-4 relative">
+        <div className="relative flex justify-between px-4 md:hidden navbar bg-bgSoft">
           <div>
             <Link href="/" onClick={() => setIsOpen(false)}>
               <Image

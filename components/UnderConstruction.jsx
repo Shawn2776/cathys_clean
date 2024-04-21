@@ -5,8 +5,17 @@ import Pathname from "./Pathname";
 const UnderConstructionPage = () => {
   return (
     <>
-      <Pathname />
-      <div className="bg-[url('/comingSoon.png')] h-screen bg-cover bg-center bg-no-repeat"></div>
+      <div className="flex justify-center w-full h-screen bg-[white] pt-[140px]">
+        <div>
+          <Image
+            src="/comingSoon.jpeg"
+            width={450}
+            height={450}
+            className="rounded-3xl"
+            alt="Under Construction"
+          />
+        </div>
+      </div>
     </>
   );
 };
