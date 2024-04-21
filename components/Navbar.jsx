@@ -15,7 +15,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav className="items-center justify-between hidden mx-auto ml-32 mr-32 border-b md:flex bg-bgSoft">
+      <nav className="items-center justify-between hidden mx-auto ml-32 mr-32 md:flex bg-bgSoft">
         <Link href="/">
           <Image
             alt="Cathy's Clean logo"
