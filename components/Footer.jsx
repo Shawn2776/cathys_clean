@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer footer-center p-4 bg-[#F8973B] text-black">
       <aside className="">
-        <p>Copyright © 2024 - All right reserved by Cathy&apos;s Clean, LLC </p>
+        <p>Copyright © 2024 Cathy&apos;s Clean, LLC. All right reserved. </p>
       </aside>
     </footer>
   );

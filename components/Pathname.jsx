@@ -9,7 +9,7 @@ const Pathname = () => {
   const firstLetter = subPathname.charAt(0).toUpperCase();
   const ca = firstLetter + subPathname.slice(1);
 
-  return <h1 className="w-full text-center text-4xl">{ca}</h1>;
+  return <h1 className="w-full text-3xl text-center">{ca}</h1>;
 };
 
 export default Pathname;

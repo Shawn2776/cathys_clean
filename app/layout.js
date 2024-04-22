@@ -17,7 +17,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${inter.className} bg-bgSoft text-text min-h-screen relative`}
       >
-        <Navbar />
+        <div className="bg-[#F8973B]">
+          <Navbar />
+        </div>
         <div className="flex-1">{children}</div>
         <div className="absolute bottom-0 left-0 right-0">
           <Footer />
