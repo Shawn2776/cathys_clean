@@ -24,7 +24,7 @@ const Navbar = () => {
             src="/logo.png"
             height={65}
             width={65}
-            className="py-2"
+            className="py-2 scale-x-[-1]"
           />
         </Link>
 
@@ -82,6 +82,7 @@ const Navbar = () => {
                 width={50}
                 height={50}
                 alt="Cathy's Clean logo"
+                className="scale-x-[-1]"
               />
             </Link>
           </div>
