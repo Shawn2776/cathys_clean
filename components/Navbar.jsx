@@ -32,7 +32,9 @@ const Navbar = () => {
           <ul className="flex gap-4">
             <li className="text-xl font-semibold">
               <Link
-                className="text-xl font-extrabold text-black capitalize cursor-pointer hover:text-gray-500"
+                className={`text-xl font-extrabold text-black capitalize hover:text-gray-500 ${
+                  pathname === "/about" && "underline"
+                }`}
                 href="/about"
               >
                 About
@@ -40,7 +42,9 @@ const Navbar = () => {
             </li>
             <li className="text-xl font-semibold">
               <Link
-                className="text-xl font-extrabold text-black capitalize cursor-pointer hover:text-gray-500"
+                className={`text-xl font-extrabold text-black capitalize cursor-pointer hover:text-gray-500 ${
+                  pathname === "/services" && "underline"
+                }`}
                 href="/services"
               >
                 Services
@@ -48,7 +52,9 @@ const Navbar = () => {
             </li>
             <li className="text-xl font-semibold">
               <Link
-                className="text-xl font-extrabold text-black capitalize cursor-pointer hover:text-gray-500"
+                className={`text-xl font-extrabold text-black capitalize cursor-pointer hover:text-gray-500 ${
+                  pathname === "/booking" && "underline"
+                }`}
                 href="/booking"
               >
                 Booking
@@ -56,7 +62,9 @@ const Navbar = () => {
             </li>
             <li className="text-xl font-semibold">
               <Link
-                className="text-xl font-extrabold text-black capitalize cursor-pointer hover:text-gray-500"
+                className={`text-xl font-extrabold text-black capitalize cursor-pointer hover:text-gray-500 ${
+                  pathname === "/contact" && "underline"
+                }`}
                 href="/contact"
               >
                 Contact

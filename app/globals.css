@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+a {
+  @apply cursor-pointer;
+}
+
 :root {
   --bg: #151c2c;
   --bgSoft: #4093CB;
