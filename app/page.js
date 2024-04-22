@@ -27,9 +27,12 @@ const HomePage = () => {
               to every swipe. Ready for a spotless environment? Let Cathy&apos;s
               Clean handle the mess while you relax and enjoy the cleanliness!
             </p>
-            <button className="btn text-[#4093CB] hover:bg-[#4093CB] hover:text-[#F6F5EA] bg-[#F6F5EA]">
+            <Link
+              href="/booking"
+              className="btn text-[#4093CB] hover:bg-[#4093CB] hover:text-[#F6F5EA] bg-[#F6F5EA]"
+            >
               Book Now
-            </button>
+            </Link>
           </div>
           <div className="p-2">
             <Image
@@ -72,7 +75,7 @@ const HomePage = () => {
         </p>
         <Link
           href="/booking"
-          className="mb-40 w-40 mx-auto text-[#4093CB] hover:bg-[#4093CB] hover:text-[#F6F5EA] bg-[#F6F5EA]"
+          className="btn w-[50%] mx-auto mb-10 text-[#4093CB] hover:bg-[#4093CB] hover:text-[#F6F5EA] bg-[#F6F5EA]"
         >
           Book Now
         </Link>
